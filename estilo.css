@@ -11,10 +11,10 @@ https://developer.mozilla.org/es/docs/Web/CSS/At-rule#Grupos_de_Reglas_Condicion
 
 @keyframes agua {
   from {
-    background: rgba(90, 254, 200, 1.00);
+    background: #ffebee
   }
   to {
-    background: rgba(98, 78, 201, 1.00);
+    background: #ffebee
   }
 }
 
@@ -35,12 +35,13 @@ body {
 }
 
 a{
-  color:#222;
+  color:#f00; 
   transition: all ease 1s;
 }
 
 a:hover{
-  color:#000;
+  color:#0f0;
+  background:yellow;
   text-decoration: none;
 }
 
@@ -60,7 +61,7 @@ pre{
 pre:hover{
   background:rgba(255,255,255,0.4);
   transition: background ease 1s;
-  cursor:crosshair;
+  cursor:help;
 }
 
 code{
